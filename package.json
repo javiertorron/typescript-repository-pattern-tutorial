@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon src/server.ts",
     "build": "rm -rf dist/ && prettier --write src/ && tsc",
+    "docker": "npm run build && docker-compose up -d --build",
     "start": "node server.js"
   },
   "author": "Javier Torrón Díaz",

@@ -20,4 +20,4 @@ services:
   node-app:
     build: .
     ports:
-      - "4001:8081"
+      - "4000:8181"
