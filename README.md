@@ -47,7 +47,7 @@ Configuramos el ficher autogenerado en el root path con los siguientes datos:
 ## Dependencias
 Instalación de dependencias:
 ```
-npm i express axios ts-node routing-controllers reflect-metadata module-alias body-parser class-transformer class-validator typedi tslib --save
-npm i typescript @types/node --save-dev
+npm i express ts-node morgan axios --save
+npm i typescript ts-node @types/node @types/express @types/morgan @types/axios nodemon --save-dev
 npm i nodemon --save-dev
 ```
